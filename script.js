@@ -1,6 +1,6 @@
 let sentences = [
     "if i make a typo, i owe him a date.",
-    "typing fast is cool, but can i type fast abd still look pretty?.",
+    "typing fast is cool, but can i type fast and still look pretty?",
     "This game has better structural integrity than my last project."
 ];
 
