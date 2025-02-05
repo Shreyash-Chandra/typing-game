@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Type to Win</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Type to Win something big 👐</h1>
+        
+        <!-- Image Section -->
+        <div class="image-container">
+            <img src="heart.png" alt="Cute Heart" id="cute-image">
+        </div>
+
+        <!-- Typing Game -->
+        <div id="game-container">
+            <p id="sentence"></p>
+            <input type="text" id="input-box" placeholder="Start typing here..." oninput="checkTyping()">
+            <div class="progress-bar"><div id="progress"></div></div>
+            <p id="message"></p>
+            <p id="timer">Time: 0s</p>
+        </div>
+        
+        <!-- Floating Hearts -->
+        <div id="heart-container"></div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
